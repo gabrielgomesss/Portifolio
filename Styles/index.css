@@ -1,0 +1,8 @@
+@import './_global.css';
+@import './_Main.css';
+@import './_Technologies.css';
+@import './_About.css';
+@import './_Projects.css';
+@import './_Services.css';
+@import './_CallToAction.css';
+@import './Responsive/_Mobile.css';

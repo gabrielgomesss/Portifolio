@@ -1,0 +1,81 @@
+.MainContainer{
+    display: grid;
+    justify-items: end;
+    grid-template-columns: repeat(2,1fr);
+    background-color: var(--DarkBackground);
+    height: 100%;
+    width: 100%;
+}
+
+.MainPhoto{
+    height: 660px;
+    width: 70%;
+}
+.LeftContainer{
+    display: grid;
+    align-content: center;
+    justify-content: center;
+    width: 90%;
+    height: 100%;
+    color: var(--LighText);
+}
+.subTitle{
+    position: relative;
+    font-size: 1.5rem;
+    padding-bottom: 2%;
+    color: #FFF;
+    letter-spacing: 5px;
+    animation: typewriter 1.5s steps(44) 1s  normal both,
+    blinkTextCursor 800ms steps(44) infinite normal;
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 2px solid rgba(255,255,255,.75);
+}
+.LeftContainer >h2{
+    font-size: 1.5rem;
+    font-weight: 200;
+}
+#DescriptionMain{
+    font-size: 1rem;
+    width: 100%;
+    font-weight: 100;
+    padding: 0 0 5% 0;
+    letter-spacing: 0px;
+}
+
+.MainButton{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    /* background-color: var(--LightBlue); */
+    background-color: var(--Purple);
+    font-family: "Prompt", sans-serif;
+    font-size: 1rem;
+    color: #FFF;
+    border-radius: 5px;
+    padding: 15px 20px 15px 20px;
+    filter: drop-shadow(4px 4px 4px rgba(0, 0, 0, 0.25));
+    width: 40%;
+}
+
+@keyframes AnimationButton {
+    100%{
+        background-color: var(--Purple);
+    }
+}
+.MainButton:hover{
+    cursor: pointer;
+    animation: AnimationButton 1s;
+    animation-fill-mode: forwards;
+}
+
+  @keyframes typewriter{
+    from{width: 0;}
+    to{width: 97%;}
+  }
+  @keyframes blinkTextCursor{
+    from{border-right-color: rgba(255,255,255,.75);}
+    to{border-right-color: transparent;}
+  }
+
+  

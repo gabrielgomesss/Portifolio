@@ -1,0 +1,64 @@
+.ProjectsContainer{
+    background-image: url(../Images/Group\ 8.svg);
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+}
+
+.ProjectsContainer{
+    text-align: end;
+    padding: 200px 0 100px 0 ;
+}
+
+.ProjectsContainer > h1 {
+    font-size: 2.275rem;
+    color: #FFF;
+    font-weight: 400;
+    padding: 0 7% 0 0 ;
+}
+
+.Projects{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    width: 100%;
+    height: 100%;
+    padding: 0 0 0 6%;
+
+}
+
+.Card{
+    padding: 100px 0 0 0;
+    text-align: left;
+}
+
+.CardImgBackground{
+    display: flex;
+    justify-content: center;
+    background-color: var(--LightDarkText);
+    border-radius: 5px;
+    width: 350px;
+    height: 350px;
+    box-shadow: 4px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+.CardImgBackground > img{
+    width: 350px;
+    height: 350px;
+    padding: 20px;
+}
+.CardImgBackground:hover{
+    cursor: pointer;
+}
+
+.Card > h1, h2{
+    color: var(--LighText);
+    padding: 2% 15% 0 0 ;
+}
+
+.Card > a{
+    font-size: 1.275rem;
+    color: #FFF;
+    text-decoration: none;
+}
+.Card > h2{
+    font-weight: 100;
+}

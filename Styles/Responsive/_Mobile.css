@@ -1,0 +1,70 @@
+@media only screen and (max-width: 640px){
+    .MainContainer{
+        display: grid;
+        grid-template-columns: 1fr;
+        padding: 0 0 0 0;
+        justify-content: center;
+        align-items: center;
+    }
+    .LeftContainer{
+        margin: 0;
+        padding: 10% 5% 10% 5%;
+    }
+    .LeftContainer > h1{
+        font-size: 1.275rem;
+    }
+    .LeftContainer > h2{
+        font-size: 0.9rem;
+    }
+    .DescriptionMain{
+        font-size: 0.9rem;
+    }
+    .MainButton{
+        width: 100%;
+    }
+    .MainPhoto{
+        grid-row: 1;
+        padding: 0 0 0 0;
+        width:100%;
+        height: 100%;
+    }
+    .DescriptionMain{
+        width: 100%;
+    }
+    .Technologies{
+        display: grid;
+        grid-template-columns: 1fr;
+        row-gap: 25px;
+    }
+    .Tech > img {
+        width: 50px;
+        height: 50px;
+    }
+    .ProjectsContainer, .Projects{
+        display: grid;
+        grid-template-columns: 1fr;
+        align-items: center;
+        width: 100%;
+    }
+    .Card{
+        height: 100%;
+        width: 100%;
+    }
+    .CardImgBackground{
+        width: 90%;
+    }
+    .Services, .ServiceWrapper, .CtaWrapper{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .CtaWrapper{
+        padding: 10% 5% 10% 5%;
+    }
+    .CtaText{
+        padding: 0 0 10% 0;
+    }
+    .CtaButton{
+        width: 100%;
+        text-align: center;
+    }
+}
